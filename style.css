@@ -1,0 +1,379 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 4px solid rgb(231, 230, 230);
+}
+.e{
+    background-color:#6eb0ec;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #fff;
+    height: 40px;
+    width: 30px;
+    align-items: center;
+    padding: 5px;
+}
+h3{
+    align-items: center;
+    font-size: 25px;
+    margin-top: 9px;
+    color:#6eb0ec;
+}
+.nav_logo{
+    display: flex;
+    margin: 5px;
+    
+}
+ul{
+    display: flex;
+    text-align:right;
+}
+.social{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap:wrap;
+    color: black;
+}
+ul li{
+    list-style: none;
+   margin-left: 50px;
+}
+ul li a{
+    text-decoration: none;
+}
+.btn button{
+    align-items: center;
+    background-color:  #6eb0ec;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    margin: 5px;
+    font-size: 15px;
+}
+.btn{
+    margin-left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_container{
+    width: 1000px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    float: left;
+}
+.header_containt{
+    margin-top:100px;
+}
+.header_container h1{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: #111827;
+}
+.header_container h1 span{
+    color: #6eb0ec;
+}
+.header_container p{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.header_container form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem 0;
+    background-color: #f6f4f7;
+    border-radius: 10px;
+
+}
+.header_container .inp_row{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    
+}
+.header_container .inp_grp{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+.header_container input{
+    width: 100%;
+    outline: none;
+    
+    font-size: 1rem;
+    background-color: transparent;
+}
+.header_container button{
+    width: 30vh;
+    height: 40px;
+    padding: 1re 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #6eb0ec;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2{
+    width: 100px;
+    height: 40px;
+    padding: 1re 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    background-color: #6eb0ec;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.btn2 a{
+    color: #ffffff;
+}
+.login{
+    display: none;
+    
+}
+.active{
+    display: block;
+    position: absolute;
+    top: -0px;
+    left: 35px;
+    margin-left: 950px;
+    margin-top:90px ;
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: auto;
+    width:300px;
+    text-align: center;
+    padding: 10px;
+}
+.active input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.active button{
+    width: 82%;
+    height: 30px;
+    background-color: #6eb0ec;
+    border-radius: 5px;
+    
+}
+.regpage{
+    display: none;
+}
+.active1{
+    display: block;
+    position: absolute;
+    top: -0px;
+    left: 35px;
+    margin-left: 1050px;
+    margin-top:90px ;
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: auto;
+    width:300px;
+    text-align: center;
+    padding: 10px;
+}
+.active1 input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.active1 button{
+    width: 82%;
+    height: 30px;
+    background-color: #6eb0ec;
+    border-radius: 5px;
+    
+}
+.maincourse{
+    margin-top: 160px;
+    display: flex;
+    padding: 20px;
+    width: auto;
+    background-color: #f6f4f7;
+
+}
+.cources{
+    margin: 40px;
+    font-size: 30px;
+}
+.cources span{
+    color: #6eb0ec;
+    border-bottom:2px solid black;
+    
+}
+.card{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: auto;
+    width: 200px;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-inline:20px ;
+
+}
+.card img{
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.card button{
+    background-color: #6eb0ec;
+    color:#fff;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.categories h2 span{
+    color: #6eb0ec;
+    border-bottom:2px solid black;
+
+}
+.categories{
+    margin-top: 70px;
+    background-color: #f6f4f7;
+
+}
+.categories h2{
+    font-size: 42px;
+    margin-left: 60px;
+}
+.categories h3{
+    margin-left: 60px;
+    color: #969696;
+}
+.categories p{
+    height: auto;
+    width: 250px;
+    border: 2px solid #6eb0ec;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    font-weight:700;
+}
+.catgrp{
+    text-align: center;
+}
+.catrow{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 30px;
+}
+.catrow p{
+    margin-inline:50px ;
+    transition: 0.5s;
+}
+.catrow p:hover{
+    background-color: #6eb0ec;
+    color: #fff;
+    cursor: pointer;
+}
+.instructor{
+    margin-top: 70px;
+    height: 350px;
+    background-color: #f6f4f7;
+
+}
+.instructor h2{
+    font-size: 42px;
+    margin-left: 60px;
+    
+
+}
+.instructor h2 span{
+    color: #6eb0ec;
+    border-bottom:2px solid black;
+}
+.instructor h3{
+    margin-left: 60px;
+    color: #969696;
+
+}
+.insimg{
+    display: flex;
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    margin-top:40px;
+}
+.footer{
+    background-color: #f6f4f7;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.footgrp span{
+    display: flex;
+    margin-top: 20px;
+}
+.footgrp p i{
+    margin-inline: 15px;
+    font-size: 25px;
+}
+.footgrp{
+     margin-inline: 90px;
+}
+.footgrp h2{
+     font-size: 27px;
+}
+.footgrp p{
+    font-size: 19px;
+    color: #808080;
+    margin-bottom: 10px;
+}
+.footgrp input{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+}
+.footgrp button{
+    background-color: #6eb0ec;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+}
